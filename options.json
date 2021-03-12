@@ -1,0 +1,8 @@
+{
+    "npmName": "@oveda/oveda-api",
+    "npmVersion": "0.1.0",
+    "snapshot": true,
+    "ngVersion": "11.0.0",
+    "supportsES6": true,
+    "modelPropertyNaming": "original"
+  }

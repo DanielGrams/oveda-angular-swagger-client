@@ -1,0 +1,17 @@
+export * from './dump.service';
+import { DumpService } from './dump.service';
+export * from './eventCategories.service';
+import { EventCategoriesService } from './eventCategories.service';
+export * from './eventDates.service';
+import { EventDatesService } from './eventDates.service';
+export * from './eventReferences.service';
+import { EventReferencesService } from './eventReferences.service';
+export * from './events.service';
+import { EventsService } from './events.service';
+export * from './organizations.service';
+import { OrganizationsService } from './organizations.service';
+export * from './organizers.service';
+import { OrganizersService } from './organizers.service';
+export * from './places.service';
+import { PlacesService } from './places.service';
+export const APIS = [DumpService, EventCategoriesService, EventDatesService, EventReferencesService, EventsService, OrganizationsService, OrganizersService, PlacesService];
