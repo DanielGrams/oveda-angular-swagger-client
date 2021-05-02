@@ -1,4 +1,4 @@
-## @oveda/oveda-api@0.1.0-SNAPSHOT.202103111629
+## @oveda/oveda-api@0.1.0-SNAPSHOT.202105021428
 
 ### Building
 
@@ -19,7 +19,7 @@ Navigate to the folder of your consuming project and run one of next commands.
 _published:_
 
 ```
-npm install @oveda/oveda-api@0.1.0-SNAPSHOT.202103111629 --save
+npm install @oveda/oveda-api@0.1.0-SNAPSHOT.202105021428 --save
 ```
 
 _without publishing (not recommended):_

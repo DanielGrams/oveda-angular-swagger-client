@@ -1,6 +1,6 @@
 {
   "name": "@oveda/oveda-api",
-  "version": "0.1.0-SNAPSHOT.202103111629",
+  "version": "0.1.0-SNAPSHOT.202105021428",
   "description": "swagger client for @oveda/oveda-api",
   "author": "Swagger Codegen Contributors",
   "keywords": [

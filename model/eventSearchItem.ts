@@ -16,6 +16,7 @@ import { PlaceSearchItem } from './placeSearchItem';
 
 
 export interface EventSearchItem { 
+    attendance_mode?: EventSearchItem.AttendanceModeEnum;
     booked_up?: boolean;
     categories?: Array<EventCategoryRef>;
     description?: string;
@@ -31,6 +32,12 @@ export interface EventSearchItem {
     status?: EventSearchItem.StatusEnum;
 }
 export namespace EventSearchItem {
+    export type AttendanceModeEnum = 'offline' | 'online' | 'mixed';
+    export const AttendanceModeEnum = {
+        Offline: 'offline' as AttendanceModeEnum,
+        Online: 'online' as AttendanceModeEnum,
+        Mixed: 'mixed' as AttendanceModeEnum
+    };
     export type StatusEnum = 'scheduled' | 'cancelled' | 'movedOnline' | 'postponed' | 'rescheduled';
     export const StatusEnum = {
         Scheduled: 'scheduled' as StatusEnum,
